@@ -20,12 +20,6 @@ set(LIBSRC
   ${ASN1C_SRCS}
 )
 
-add_custom_command (
-  OUTPUT ${LIBH} ${ASN1C_SRCS}
-  COMMAND asn1c -D src -gen-PER -pdu=MessageFrame -fcompound-names -fline-refs -no-gen-example ${ASN_SRCS}
-  DEPENDS ${ASN_SRCS}
-  )
-
 # defines
 add_definitions()
 
