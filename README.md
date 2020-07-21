@@ -1,11 +1,13 @@
 # libj2735v2016
 SAE J2735-2016 C Library build using asn1c compiler output
 
-# packages
+Requires J2735_201603DA.ASN file purchased from SAE J2735-2016 which is copyrighted
+
+# Packages
 1. sudo apt-get install asn1c build-essential cmake
 2. sudo apt-get remove asn1c
 
-# build and install asn1c (make, make install)
+# Build and install asn1c (make, make install)
 1. mkdir -p ~/src/asn1c
 2. cd ~/src/asn1c
 3. git clone https://github.com/vlm/asn1c.git
@@ -13,7 +15,9 @@ SAE J2735-2016 C Library build using asn1c compiler output
 5. make
 6. sudo make install
 
-# build j2735 library based on J2735-2016 with CAMP additions
+# Build j2735 library
 1. ./gen.sh
 2. cmake .
 3. make
+
+# Headers are all in the src directory
