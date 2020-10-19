@@ -7,6 +7,9 @@ set(LIBRARY ${TARGET})
 
 set(ASN_SRCS J2735_201603DA.ASN)
 
+set(COMPILER_FLAGS_DEBUG)
+set(CMAKE_C_FLAGS "-DASN_EMIT_DEBUG")
+
 # list of header files
 file(GLOB ASN1C_HDRS "src/*.h")
 set(LIBH
