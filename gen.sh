@@ -9,3 +9,6 @@ asn1c -D src -pdu=MessageFrame -fcompound-names -fline-refs -no-gen-BER -no-gen-
 
 # missing files
 cp /usr/local/share/asn1c/asn_codecs_prim_xer.c src
+
+# prep for build
+cmake .
