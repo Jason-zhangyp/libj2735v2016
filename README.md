@@ -10,7 +10,7 @@ Requires J2735_201603DA.ASN file purchased from SAE J2735-2016 which is copyrigh
 # Build and install asn1c (make, make install)
 1. mkdir -p ~/src
 2. cd ~/src
-3. git clone https://github.com/vlm/asn1c.git
+3. git clone https://github.com/mouse07410/asn1c (mouse branch of https://github.com/mouse07410/asn1c)
 4. cd asn1c
 5. ./configure
 6. make
